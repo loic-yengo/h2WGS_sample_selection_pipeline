@@ -5,9 +5,10 @@ wgsFile <- args[2]# "PCA_approx30PCs.eigenvec"
 cat(paste0("pcaFile = ",pcaFile,".\n"))
 
 ## Read PCs from 455k samples
-pcs <- read.table(pcaFile,h=T,stringsAsFactors = F,comment.char = "!")[,-1]
+pcs <- read.table(pcaFile,stringsAsFactors = F)[,-1]
 npc <- ncol(pcs)-1
 cat(paste0("Exclusion based on ",npc," PCs.\n"))
+colnames(pcs) <- c("IID",paste0("PC",1:npc))
 
 OUT <- matrix(0,nrow=nrow(pcs),ncol=npc)
 for(i in 1:npc){
