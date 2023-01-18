@@ -1,0 +1,36 @@
+*******************************************************************
+* Genome-wide Complex Trait Analysis (GCTA)
+* version 1.93.2 beta Linux
+* (C) 2010-present, Jian Yang, The University of Queensland
+* Please report bugs to Jian Yang <jian.yang.qt@gmail.com>
+*******************************************************************
+Analysis started at 18:25:36 AEST on Thu Jan 12 2023.
+Hostname: delta087
+
+Accepted options:
+--bfile /home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/ukbForPCAapprox
+--pc-loading /home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/PCA_approx30PCs
+--out PCA_approx30PCs_loadings
+
+Note: the program will be running on 10 threads.
+
+Reading PLINK FAM file from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/ukbForPCAapprox.fam].
+455516 individuals to be included from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/ukbForPCAapprox.fam].
+Reading PLINK BIM file from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/ukbForPCAapprox.bim].
+150284 SNPs to be included from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/ukbForPCAapprox.bim].
+Reading PLINK BED file from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/ukbForPCAapprox.bed] in SNP-major format ...
+Genotype data for 455516 individuals and 150284 SNPs to be included from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/ukbForPCAapprox.bed].
+Reading eigenvectors from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/PCA_approx30PCs.eigenvec].
+30 eigenvectors of 455517 individuals are included from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/PCA_approx30PCs.eigenvec].
+
+Reading eigenvalues from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/PCA_approx30PCs.eigenval].
+30 eigenvalues read from [/home/uqlyengo/RDM_h2WGS/prepare-samples/ukb_data/PCA_approx30PCs.eigenval]
+455516 individuals in common between the input files are included in the analysis.
+Calculating allele frequencies ...
+
+Calculating SNP loading ...
+
+Saving the PC loading of 150284 SNPs to [PCA_approx30PCs_loadings.pcl] ...
+
+Analysis finished at 18:47:09 AEST on Thu Jan 12 2023
+Overall computational time: 21 minutes 32 sec.
