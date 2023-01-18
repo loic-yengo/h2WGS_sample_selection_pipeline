@@ -1,0 +1,36 @@
+*******************************************************************
+* Genome-wide Complex Trait Analysis (GCTA)
+* version 1.93.2 beta Linux
+* (C) 2010-present, Jian Yang, The University of Queensland
+* Please report bugs to Jian Yang <jian.yang.qt@gmail.com>
+*******************************************************************
+Analysis started at 11:59:11 AEST on Fri Oct 14 2022.
+Hostname: delta003
+
+Accepted options:
+--bfile 1kgForPCA
+--pc-loading 1kg10PCs
+--out 1kg10PCs_loadings
+
+Note: the program will be running on 10 threads.
+
+Reading PLINK FAM file from [1kgForPCA.fam].
+2504 individuals to be included from [1kgForPCA.fam].
+Reading PLINK BIM file from [1kgForPCA.bim].
+207964 SNPs to be included from [1kgForPCA.bim].
+Reading PLINK BED file from [1kgForPCA.bed] in SNP-major format ...
+Genotype data for 2504 individuals and 207964 SNPs to be included from [1kgForPCA.bed].
+Reading eigenvectors from [1kg10PCs.eigenvec].
+10 eigenvectors of 2504 individuals are included from [1kg10PCs.eigenvec].
+
+Reading eigenvalues from [1kg10PCs.eigenval].
+10 eigenvalues read from [1kg10PCs.eigenval]
+2504 individuals in common between the input files are included in the analysis.
+Calculating allele frequencies ...
+
+Calculating SNP loading ...
+
+Saving the PC loading of 207964 SNPs to [1kg10PCs_loadings.pcl] ...
+
+Analysis finished at 11:59:23 AEST on Fri Oct 14 2022
+Overall computational time: 12.14 sec.
